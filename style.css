@@ -1,0 +1,48 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 32px;
+    padding: 10px;
+    background-color: grey;
+}
+
+h2 {
+    font-size: 28px;
+    color: blue;
+}
+h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+input {
+    padding:5px;
+    font-size: 12px;
+}
+img {
+    margin-top: 20px;
+}
+ul {
+    font-size:18px;
+}
+
+ul :nth-last-child(1) {
+margin-top: 10px;
+}
+
+button {
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: gray;
+    color:white;
+    margin-left: 10px;
+
+}
+
+button:hover {
+background-color: white;
+color: gray;
+transition: 0.2s linear;
+}
